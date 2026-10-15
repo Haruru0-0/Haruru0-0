@@ -8,7 +8,7 @@
 
 I've spent five years building enterprise apps with Spring Boot, React and PostgreSQL. I've led teams of 5-7, mentored 10+ junior developers, and these days I build AI-powered products on my own.
 
-[Portfolio](https://ahmad-kanaan.vercel.app)
+[Portfolio](https://ahmad-kanaan.vercel.app) · [Blog](https://ahmadkanaan.hashnode.dev)
 
 ## What I'm building
 
