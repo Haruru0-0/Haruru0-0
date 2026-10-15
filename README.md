@@ -1,5 +1,9 @@
 # Hi, I'm Ahmad Kanaan
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=6C8EF5&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Spring+Boot+%C2%B7+React+%C2%B7+PostgreSQL;Building+AI-powered+products" alt="Typing SVG" />
+</p>
+
 **Full Stack Developer** based in Tripoli, Lebanon.
 
 I've spent five years building enterprise apps with Spring Boot, React and PostgreSQL. I've led teams of 5-7, mentored 10+ junior developers, and these days I build AI-powered products on my own.
@@ -19,6 +23,12 @@ I've spent five years building enterprise apps with Spring Boot, React and Postg
 ![Java](https://skillicons.dev/icons?i=spring,react,nextjs,ts,nodejs,nestjs,python,django,fastapi,postgres,mongodb,redis,docker,kubernetes,aws,gcp,azure,tailwind,graphql,jest,playwright,cypress&perline=11)
 
 **Also:** Shopify Hydrogen, React Native, n8n automation, Stripe, Sentry, OpenAI and Gemini APIs.
+
+## Top languages
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Haruru0-0&layout=compact&hide_border=true&langs_count=6" alt="Top languages" />
+</p>
 
 ## Highlights
 
