@@ -2,9 +2,15 @@
 
 <code>haruru0-0@github ~ $ neofetch --live</code>
 
+<br/><br/>
+
 <img src="assets/portrait.svg?v=68838162" alt="Portrait" width="760"/>
 
+<br/><br/>
+
 <img src="assets/identity.svg?v=c49d3342" alt="Identity and telemetry" width="380"/>
+
+<br/><br/>
 
 ● **ONLINE** · Full Stack Developer in Tripoli, Lebanon. Building AI-powered products with Spring Boot, React and PostgreSQL.
 
@@ -30,6 +36,8 @@
 
 </div>
 
+<br/>
+
 | Project | What it does | Stack |
 |---|---|---|
 | [**Nebula**](https://github.com/Haruru0-0/Nebula) ([live](https://nebula-gamma-inky.vercel.app)) | AI agent control center. Create, configure and monitor LLM agents across OpenAI and Gemini, with live token, latency and cost metrics. | Next.js, Node/TypeScript, PostgreSQL, WebSocket, Docker |
@@ -42,8 +50,12 @@
 
 <img src="assets/skills.svg?v=77cfcfbd" alt="Skills"/>
 
+<br/>
+
 | **TypeScript**<br/>69% | **Jupyter Notebook**<br/>17% | **JavaScript**<br/>10% | **CSS**<br/>3% | **Python**<br/>1% | **Shell**<br/>0% |
 | --- | --- | --- | --- | --- | --- |
+
+<br/>
 
 </div>
 

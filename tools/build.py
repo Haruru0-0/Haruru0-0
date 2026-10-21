@@ -386,9 +386,15 @@ def readme(sizes, top_langs, projects_rows):
 
 <code>{LOGIN.lower()}@github ~ $ neofetch --live</code>
 
+<br/><br/>
+
 {img("portrait", "Portrait", 760)}
 
+<br/><br/>
+
 {img("identity", "Identity and telemetry", 380)}
+
+<br/><br/>
 
 ● **ONLINE** · {ROLE} in {LOCATION}. Building AI-powered products with Spring Boot, React and PostgreSQL.
 
@@ -414,6 +420,8 @@ def readme(sizes, top_langs, projects_rows):
 
 </div>
 
+<br/>
+
 | Project | What it does | Stack |
 |---|---|---|
 {projects_rows}
@@ -424,8 +432,12 @@ def readme(sizes, top_langs, projects_rows):
 
 {img("skills", "Skills")}
 
+<br/>
+
 | {pct} |
 | {sep} |
+
+<br/>
 
 </div>
 
