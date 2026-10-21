@@ -2,9 +2,9 @@
 
 <code>haruru0-0@github ~ $ neofetch --live</code>
 
-<img src="assets/portrait.svg" alt="Portrait" width="760"/>
+<img src="assets/portrait.svg?v=68838162" alt="Portrait" width="760"/>
 
-<img src="assets/identity.svg" alt="Identity and telemetry" width="380"/>
+<img src="assets/identity.svg?v=c49d3342" alt="Identity and telemetry" width="380"/>
 
 ● **ONLINE** · Full Stack Developer in Tripoli, Lebanon. Building AI-powered products with Spring Boot, React and PostgreSQL.
 
@@ -26,7 +26,7 @@
 
 <div align="center">
 
-<img src="assets/projects.svg" alt="Projects"/>
+<img src="assets/projects.svg?v=8c766f5e" alt="Projects"/>
 
 </div>
 
@@ -40,7 +40,7 @@
 
 <div align="center">
 
-<img src="assets/skills.svg" alt="Skills"/>
+<img src="assets/skills.svg?v=77cfcfbd" alt="Skills"/>
 
 | **TypeScript**<br/>69% | **Jupyter Notebook**<br/>17% | **JavaScript**<br/>10% | **CSS**<br/>3% | **Python**<br/>1% | **Shell**<br/>0% |
 | --- | --- | --- | --- | --- | --- |
@@ -60,7 +60,7 @@
 
 **working tree: clean · shipping consistently**
 
-<img src="assets/neofetch.svg" alt="neofetch"/>
+<img src="assets/neofetch.svg?v=2cd2a28a" alt="neofetch"/>
 
 </div>
 
@@ -68,7 +68,7 @@
 
 <div align="center">
 
-<img src="assets/activity.svg" alt="Contribution activity"/>
+<img src="assets/activity.svg?v=4cd47dd0" alt="Contribution activity"/>
 
 </div>
 
@@ -78,6 +78,6 @@ Off the keyboard: UI/UX design, 3D modeling, chess, reading manga. Languages: En
 
 <div align="center">
 
-<img src="assets/footer.svg" alt="GitHub footer"/>
+<img src="assets/footer.svg?v=acfebe00" alt="GitHub footer"/>
 
 </div>

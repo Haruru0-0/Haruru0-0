@@ -2,6 +2,7 @@
 
 Usage: python tools/build.py   (needs `gh` logged in and `pip install pillow`)
 """
+import hashlib
 import json
 import subprocess
 import tempfile
@@ -19,6 +20,8 @@ ROLE = "Full Stack Developer"
 LOCATION = "Tripoli, Lebanon"
 ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
+
+VERSIONS = {}  # card name -> content hash, filled in main() and used by the README image URLs
 
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
 BG, CARD, BORDER = "#0b0f14", "#010409", "#30363d"  # CARD is darker than GitHub's dark page (#0d1117) so cards stand out
@@ -374,7 +377,8 @@ def footer():
 def readme(sizes, top_langs, projects_rows):
     def img(name, alt, width=None):
         w = f' width="{width}"' if width else ""
-        return f'<img src="assets/{name}.svg" alt="{alt}"{w}/>'
+        v = f"?v={VERSIONS[name]}" if name in VERSIONS else ""  # cache-bust: GitHub caches images ~5 min
+        return f'<img src="assets/{name}.svg{v}" alt="{alt}"{w}/>'
 
     pct = " | ".join(f"**{l}**<br/>{p}%" for l, p in top_langs)
     sep = " | ".join("---" for _ in top_langs)
@@ -497,6 +501,7 @@ def main():
     }
     for name, (w, h, content) in cards.items():
         (ASSETS / f"{name}.svg").write_text(content, encoding="utf-8")
+        VERSIONS[name] = hashlib.md5(content.encode("utf-8")).hexdigest()[:8]
 
     rows = "\n".join(
         f"| [**{n}**](https://github.com/{LOGIN}/{n}) ([live]({u})) | {d} | {s} |"
