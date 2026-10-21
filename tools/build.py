@@ -21,7 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 
 FONT = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
-BG, CARD, BORDER = "#0b0f14", "#0d1117", "#30363d"
+BG, CARD, BORDER = "#0b0f14", "#010409", "#30363d"  # CARD is darker than GitHub's dark page (#0d1117) so cards stand out
 FG, MUTED, BLUE, GREEN = "#e6edf3", "#8b949e", "#58a6ff", "#3fb950"
 LANG_COLORS = {
     "TypeScript": "#3178c6", "JavaScript": "#f1e05a", "Python": "#3572a5",
@@ -101,6 +101,8 @@ def window(w, h, title, inner, radius=12):
     )
     return (
         f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{radius}" fill="{CARD}" stroke="{BORDER}"/>'
+        f'<path d="M0.5 40.5V{radius + 0.5}a{radius} {radius} 0 0 1 {radius} -{radius}H{w - radius - 0.5}'
+        f'a{radius} {radius} 0 0 1 {radius} {radius}V40.5z" fill="#161b22"/>'
         f'<path d="M0.5 40.5H{w - 0.5}" stroke="{BORDER}"/>{dots}'
         f'<text x="{w / 2}" y="24" text-anchor="middle" font-size="12" fill="{MUTED}">{esc(title)}</text>'
         f"{inner}"
