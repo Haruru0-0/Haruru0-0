@@ -265,7 +265,10 @@ def donut(cx, cy, pct, color):
 
 
 def projects(repos):
-    shown = [r for r in repos if r["name"] != LOGIN][:6]
+    shown = [r for r in repos if r["name"] != LOGIN]
+
+    def clip(text, n):
+        return text if len(text) <= n else text[: n - 1] + "…"
     cw, ch, gap, pad = 392, 128, 16, 28
     w = pad * 2 + cw * 2 + gap
     rows = (len(shown) + 1) // 2
@@ -283,10 +286,10 @@ def projects(repos):
         color = LANG_COLORS.get(lang, BLUE)
         desc = wrap(r["description"] or "No description yet.", 40, 2)
         b.append(f'<rect x="{x}" y="{y}" width="{cw}" height="{ch}" rx="10" fill="#0a0e14" stroke="#243a5e"/>'
-                 f'<text x="{x + 14}" y="{y + 20}" font-size="10" fill="{MUTED}">• {LOGIN}/{esc(r["name"])}</text>'
+                 f'<text x="{x + 14}" y="{y + 20}" font-size="10" fill="{MUTED}">• {esc(clip(LOGIN + "/" + r["name"], 48))}</text>'
                  f'<circle cx="{x + cw - 16}" cy="{y + 16}" r="4" fill="{GREEN}"/>'
                  f'<path d="M{x} {y + 30}H{x + cw}" stroke="#1b2a45"/>'
-                 f'<text x="{x + 14}" y="{y + 54}" font-size="15" font-weight="bold" fill="{FG}">{esc(r["name"])} <tspan fill="{BLUE}">_</tspan></text>')
+                 f'<text x="{x + 14}" y="{y + 54}" font-size="15" font-weight="bold" fill="{FG}">{esc(clip(r["name"], 24))} <tspan fill="{BLUE}">_</tspan></text>')
         for j, line in enumerate(desc):
             b.append(f'<text x="{x + 14}" y="{y + 74 + j * 14}" font-size="10.5" fill="{MUTED}">{esc(line)}</text>')
         if lang:

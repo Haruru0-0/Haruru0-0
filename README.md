@@ -8,7 +8,7 @@
 
 <br/><br/>
 
-<img src="assets/identity.svg?v=c49d3342" alt="Identity and telemetry" width="380"/>
+<img src="assets/identity.svg?v=8d7df7ae" alt="Identity and telemetry" width="380"/>
 
 <br/><br/>
 
@@ -32,7 +32,7 @@
 
 <div align="center">
 
-<img src="assets/projects.svg?v=8c766f5e" alt="Projects"/>
+<img src="assets/projects.svg?v=ed77eab7" alt="Projects"/>
 
 </div>
 
@@ -52,7 +52,7 @@
 
 <br/>
 
-| **TypeScript**<br/>69% | **Jupyter Notebook**<br/>17% | **JavaScript**<br/>10% | **CSS**<br/>3% | **Python**<br/>1% | **Shell**<br/>0% |
+| **TypeScript**<br/>68% | **Jupyter Notebook**<br/>16% | **JavaScript**<br/>11% | **CSS**<br/>2% | **Python**<br/>1% | **Java**<br/>0% |
 | --- | --- | --- | --- | --- | --- |
 
 <br/>
@@ -72,7 +72,7 @@
 
 **working tree: clean · shipping consistently**
 
-<img src="assets/neofetch.svg?v=2cd2a28a" alt="neofetch"/>
+<img src="assets/neofetch.svg?v=f180fc02" alt="neofetch"/>
 
 </div>
 
@@ -80,7 +80,7 @@
 
 <div align="center">
 
-<img src="assets/activity.svg?v=4cd47dd0" alt="Contribution activity"/>
+<img src="assets/activity.svg?v=d53c9858" alt="Contribution activity"/>
 
 </div>
 
